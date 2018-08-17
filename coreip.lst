@@ -1,0 +1,12 @@
+# Example core ip list for Mochimo HQ
+#mdev1.homelinux.net
+10.200.1.1 main
+#127.0.0.1      debug
+#65.151.42.12 main-net-1
+#65.151.42.12 main-net-2
+#65.151.42.12 main-net-3
+#65.151.42.12 main-net-4
+#65.151.42.12 main-net-5
+#65.151.42.12 main-net-6
+#47.206.117.177  m-safety-1
+#47.206.117.178  m-safety-2
