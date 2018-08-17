@@ -1,7 +1,7 @@
-== Introduction ==
+## Introduction ##
 Scripts for running multiple mochimo nodes on the same computer using network namespaces.
 
-== How to use ==
+## How to use ##
 (Modify paths to match your paths)
 Steps 1 to 3 only needs to be done once.
 Step 4 needs to run every boot.
