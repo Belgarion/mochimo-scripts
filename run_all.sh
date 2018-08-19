@@ -1,6 +1,7 @@
 #!/bin/bash
 # Syntax: ./run_netns.sh <network_namespace_name> <namespace_ip> <gpu_id>
-./run_netns.sh c1 10.200.1.11 0
+# The main node will also mine, therefore gpuid 0 is commented out from slaves
+#./run_netns.sh c1 10.200.1.11 0
 ./run_netns.sh c2 10.200.1.12 1
 ./run_netns.sh c3 10.200.1.13 2
 ./run_netns.sh c4 10.200.1.14 3

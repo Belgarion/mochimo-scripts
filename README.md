@@ -1,5 +1,9 @@
 ## Introduction ##
-Scripts for running multiple mochimo nodes on the same computer using network namespaces.
+Scripts for running multiple mochimo nodes (so that it can be mined with multiple CPUs or GPUs) on the same computer using network namespaces.
+
+## Requirements ##
+* tmux
+* bridge-utils
 
 ## How to use ##
 (Modify paths to match your paths)
@@ -12,4 +16,4 @@ Step 4 needs to run every boot.
 5. Start the regular node as usual. This will become your main node: `cd ~/mochi/bin; ./gomochi d`
 6. Wait for the main node to complete syncing.
 7. Start the slave nodes: `cd ~/mochi-slave/bin; sudo ./run_all.ns`
-
+8. To monitor your slave nodes, attach to tmux: `sudo tmux a -t mochi`
